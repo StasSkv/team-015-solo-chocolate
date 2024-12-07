@@ -24,11 +24,13 @@
 }
 
 .products-item {
+  box-sizing: border-box;
   width: 100%;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
   background-color: #fff;
   padding: 32px 52px;
+  
 }
 
 .products-img {

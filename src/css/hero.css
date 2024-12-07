@@ -1,8 +1,10 @@
 .hero {
   padding-bottom: 80px;
+
 }
 
 .hero-container {
+  box-sizing: border-box;
   max-width: 335px;
   background-image: linear-gradient(
       to bottom,
@@ -95,6 +97,7 @@
   border-radius: 50px;
   width: 28px;
   height: 28px;
+  box-sizing: border-box;
 }
 
 .icon-scroll {

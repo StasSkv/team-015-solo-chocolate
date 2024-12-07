@@ -1,9 +1,9 @@
 .about-us {
-  padding-bottom: 80px;
+  background-color: #1e1823;
+
 }
 
 .about-us-container {
-  background-color: #1e1823;
   padding: 20px;
 }
 
@@ -21,6 +21,7 @@
   margin-bottom: 22px;
   width: 62px;
   height: 62px;
+  box-sizing: border-box;
 }
 
 .about-us-icon {
