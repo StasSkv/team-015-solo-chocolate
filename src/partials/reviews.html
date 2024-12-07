@@ -1,0 +1,159 @@
+<section class="reviews" id="reviews">
+  <div class="container">
+    <h2 class="reviews-title">
+      <span class="reviews-title-orange">Chocolate</span> is loved
+    </h2>
+    <ul class="reviews-list">
+      <li class="reviews-item">
+        <picture>
+          <source
+            media=""
+            srcset="
+              /img/reviews/victoria.webp    1x,
+              /img/reviews/victoria@2x.webp 2x
+            " />
+          <img
+            src="/img/reviews/victoria.webp"
+            alt="victoria"
+            width="80"
+            height="80"
+            class="reviews-img"
+        /></picture>
+        <h3 class="reviews-subtitle">Victoria Dobrzhanska</h3>
+        <p class="reviews-text">
+          I love this chocolate bar. Perfect combination of light crispy wafer,
+          covered in a thin layer chocolate.
+        </p>
+      </li>
+
+      <li class="reviews-item reviews-item-second">
+        <picture>
+          <source
+            media=""
+            srcset="
+              /img/reviews/nazar.webp    1x,
+              /img/reviews/nazar@2x.webp 2x
+            " />
+          <img
+            src="/img/reviews/nazar.webp"
+            alt="nazar"
+            width="80"
+            height="80"
+            class="reviews-img"
+        /></picture>
+
+        <h3 class="reviews-subtitle">Nazar Babenko</h3>
+        <p class="reviews-text">
+          This chocolate confection is a delight! A delight! The wafer is light
+          and crisp, the hazelnut cream is smooth, and the chocolate is good.
+        </p>
+      </li>
+
+      <li class="reviews-item reviews-item-third">
+        <picture>
+          <source
+            media=""
+            srcset="
+              /img/reviews/olena.webp    1x,
+              /img/reviews/olena@2x.webp 2x
+            " />
+          <img
+            src="/img/reviews/olena.webp"
+            alt="olena"
+            width="80"
+            height="80"
+            class="reviews-img"
+        /></picture>
+
+        <h3 class="reviews-subtitle">Olena Kampusch</h3>
+        <p class="reviews-text">
+          Chocolate is a family favourite treat. Love the delicious smooth
+          chocolate and the creaminess inside. The wafer is soft but crunchy.
+        </p>
+      </li>
+    </ul>
+    <button class="reviews-btn" type="button">Leave a review</button>
+  </div>
+</section>
+
+<!-- ================ R E V I E W S - F O R M ================== -->
+
+<div class="reviews-modal-over">
+  <div class="reviews-modal">
+    <button type="button" class="reviews-modal-clos-btn">
+      <svg class="reviews-modal-clos-btn-icon" width="12" height="12">
+        <use href="/img/icons.svg#icon-x"></use>
+      </svg>
+    </button>
+    <p class="reviews-modal-title">
+      LEAVE A REVIEW <br />ABOUT
+      <span class="reviews-modal-title-orange">OUR CHOCOLATE</span>
+    </p>
+
+    <form class="reviews-modal-form">
+      <div class="reviews-modal-wrap-label">
+        <label for="user-name" class="reviews-modal-lable">Name</label>
+        <div class="reviews-modal-input-and-icon">
+          <input type="text" id="user-name" class="reviews-modal-input" />
+          <svg class="reviews-modal-input-icon" width="18" height="18">
+            <use href="/img/icons.svg#icon-user"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="reviews-modal-wrap-label">
+        <label for="user-email" class="reviews-modal-lable">Email</label>
+        <div class="reviews-modal-input-and-icon">
+          <input type="text" id="user-email" class="reviews-modal-input" />
+          <svg class="reviews-modal-input-icon" width="18" height="18">
+            <use href="/img/icons.svg#icon-mail"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="reviews-modal-wrap-label">
+        <label for="user-phone" class="reviews-modal-lable">Phone number</label>
+        <div class="reviews-modal-input-and-icon">
+          <input type="text" id="user-phone" class="reviews-modal-input" />
+          <svg class="reviews-modal-input-icon" width="18" height="18">
+            <use href="/img/icons.svg#icon-phone"></use>
+          </svg>
+        </div>
+      </div>
+
+      <div class="reviews-modal-wrap-label">
+        <label for="enter-text" class="reviews-modal-lable">Comment</label>
+        <textarea
+          class="reviews-modal-area"
+          name="enter-text"
+          id="enter-text"
+          placeholder="Enter text"
+        ></textarea>
+      </div>
+
+      <div class="reviews-modal-wrap-check">
+        <input
+          type="checkbox"
+          id="modal-checkbox"
+          class="reviews-modal-check"
+          name="police-input"
+          value="check"
+        />
+        <div class="reviews-modal-checkbox-wrap">
+          <div class="reviews-modal-checkbox-new">
+            <svg class="reviews-checkbox-new-icon" width="10" height="10">
+              <use href="/img/icons.svg#icon-ok"></use>
+            </svg>
+          </div>
+          <label for="modal-checkbox" class="reviews-modal-checkbox-text"
+            >I accept the terms and conditions of the
+
+            <a class="reviews-modal-checkbox-link">Privacy Policy</a>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="reviews-modal-btn-send">Send</button>
+    </form>
+  </div>
+</div>

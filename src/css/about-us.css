@@ -1,0 +1,42 @@
+.about-us {
+  padding-bottom: 80px;
+}
+
+.about-us-container {
+  background-color: #1e1823;
+  padding: 20px;
+}
+
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 28px;
+}
+
+.about-round-icon {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 365px;
+  padding: 15px;
+  margin-bottom: 22px;
+  width: 62px;
+  height: 62px;
+}
+
+.about-us-icon {
+  fill: #fd9222;
+}
+
+.about-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--accent);
+  margin-bottom: 18px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}

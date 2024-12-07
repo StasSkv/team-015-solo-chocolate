@@ -1,19 +1,66 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="container container-header">
+    <div class="logo-wrap">
+      <a href="/index.html" class="logo-text"
+        ><span class="logo-italic">SIMPLY</span> CHOCOLATE</a
+      >
+      <svg class="icon-logo" width="21" height="21">
+        <use href="/img/icons.svg#icon-logo-chocolate"></use>
+      </svg>
+    </div>
+    <svg class="icon-menu" width="24" height="16">
+      <use href="/img/icons.svg#icon-menu"></use>
+    </svg>
+  </div>
+</header>
+
+<!-- ================ M E N U =========================== -->
+
+<div class="modal-menu">
+  <div class="menu-container">
+    <button type="button" class="menu-close-btn">
+      <svg class="menu-close-icon" width="12" height="12">
+        <use href="/img/icons.svg#icon-x"></use>
+      </svg>
+    </button>
+    <nav class="modal-nav">
+      <ul class="modal-nav-list">
+        <li class="modal-nav-item">
+          <a href="/index.html" class="modal-nav-link">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="modal-nav-item">
+          <a href="#made" class="modal-nav-link">How it’s made?</a>
+        </li>
+        <li class="modal-nav-item">
+          <a href="#reviews" class="modal-nav-link">Chocolate is loved</a>
         </li>
       </ul>
     </nav>
+
+    <ul class="modal-social-list">
+      <li class="modal-social-item">
+        <a href="" class="modal-social-link">
+          <svg class="modal-social-svg" width="24" height="24">
+            <use href="/img/icons.svg#icon-fecebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="modal-social-item">
+        <a href="" class="modal-social-link">
+          <svg class="modal-social-svg" width="24" height="24">
+            <use href="/img/icons.svg#icon-instagram">
+              <span class="social-inst-point"></span>
+            </use>
+          </svg>
+        </a>
+      </li>
+      <li class="modal-social-item">
+        <a href="" class="modal-social-link">
+          <svg class="modal-social-svg" width="24" height="24">
+            <use href="/img/icons.svg#icon-twiter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
   </div>
-</header>
+</div>

@@ -1,0 +1,84 @@
+.taste {
+  margin-bottom: 80px;
+}
+
+.taste-title {
+  display: block;
+  margin: auto;
+  max-width: 283px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  margin-bottom: 32px;
+}
+
+.taste-title-orange {
+  color: #fd9222;
+}
+
+.taste-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.taste-item {
+  position: relative;
+  min-width: 100%;
+  padding: 28px;
+  border-radius: 15px;
+  background-color: #fd9222;
+  border: 1px solid #fd9222;
+}
+
+.taste-item-two {
+  background-color: #fff;
+  border: 1px solid #fd9222;
+}
+
+.taste-item-three {
+  background-color: #1e1823;
+  border: 1px solid #1e1823;
+}
+
+.taste-item-four {
+  background-color: #fff;
+  border: 1px solid #fd9222;
+}
+
+.card-over {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  fill: transparent;
+  stroke: #fafafa;
+}
+
+.card-over-two,
+.card-over-four {
+  stroke: #fd9222;
+}
+
+.taste-img {
+  position: relative;
+  left: 22px;
+  top: 4px;
+  margin-bottom: 16px;
+}
+
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main);
+}
+
+.taste-subtitle-white {
+  color: var(--accent);
+}
