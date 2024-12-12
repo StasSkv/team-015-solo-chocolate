@@ -1,6 +1,5 @@
 .about-us {
   background-color: #1e1823;
-
 }
 
 .about-us-container {
@@ -9,7 +8,8 @@
 
 .about-us-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
   gap: 20px;
   padding-right: 28px;
 }
@@ -40,4 +40,30 @@
   font-size: 14px;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-container {
+    padding: 32px;
+  }
+
+  .about-us-list {
+    padding: 0;
+    row-gap: 44px;
+    column-gap: 88px;
+  }
+  
+  .about-us-item {
+    max-width: calc((100% - 88px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-us-container {
+    padding: 50px;
+  }
+
+  .about-us-item {
+    max-width: calc((100% - 88px * 2) / 3);
+  }
 }

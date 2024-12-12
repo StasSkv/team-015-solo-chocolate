@@ -41,81 +41,105 @@
   stroke: #111;
 }
 
-
-
-@media screen and (min-width: 768px) {
-.header {
-  padding-bottom: 20px;
-}
-
-.icon-menu {
- display: none;
-}
-
 .header-nav {
+  display: none;
 }
-.header-nav-list {
-  display: flex;
-}
-.header-nav-item {
-}
-.header-nav-link {
-}
-
 
 .header-social-list {
-  display: flex;
-}
-.header-social-item {
-}
-.header-social-link {
-}
-.header-social-svg {
-}
-.social-inst-point {
+  display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 20px;
+  }
 
+  .icon-menu {
+    display: none;
+  }
 
+  .header-nav-soc-wrap {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+  }
 
+  .header-nav {
+    display: flex;
+  }
 
+  .header-nav-list {
+    display: flex;
+    gap: 20px;
+  }
 
+  .header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: var(--main);
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .header-social-list {
+    display: flex;
+    gap: 14px;
+  }
+
+  .header-social-item {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+  }
+
+  .header-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-social-svg {
+    width: 24px;
+    height: 24px;
+    position: relative;
+  }
+
+  .heder-social-inst-point {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #1e1823;
+  }
 }
-
-
-
-
 
 @media screen and (min-width: 1200px) {
+  .logo-text {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 
-.logo-text {
-  font-size: 18px;
-  line-height: 1.11;
- 
+  .icon-logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-nav-soc-wrap {
+    gap: 90px;
+  }
+
+  .header-nav-list {
+    gap: 24px;
+  }
 }
-
-.icon-logo {
- width: 24px;
- height: 24px;
-}
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ================ M E N U =========================== */
 
