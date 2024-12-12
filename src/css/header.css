@@ -41,6 +41,82 @@
   stroke: #111;
 }
 
+
+
+@media screen and (min-width: 768px) {
+.header {
+  padding-bottom: 20px;
+}
+
+.icon-menu {
+ display: none;
+}
+
+.header-nav {
+}
+.header-nav-list {
+  display: flex;
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+
+
+.header-social-list {
+  display: flex;
+}
+.header-social-item {
+}
+.header-social-link {
+}
+.header-social-svg {
+}
+.social-inst-point {
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+.logo-text {
+  font-size: 18px;
+  line-height: 1.11;
+ 
+}
+
+.icon-logo {
+ width: 24px;
+ height: 24px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ================ M E N U =========================== */
 
 .modal-menu {

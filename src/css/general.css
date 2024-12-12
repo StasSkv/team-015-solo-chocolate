@@ -1,5 +1,5 @@
 :root {
-  --font-family: "Montserrat", serif;
+  --font-family: 'Montserrat', serif;
   --main: #111;
   --accent: #fff;
   --background: #fafafa;
@@ -85,16 +85,14 @@ img {
   padding: 0 20px;
 }
 
-
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    padding: 0 32px;
+    max-width: 704px;
+    padding: 0 40px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
-    padding: 0 65px;
+    max-width: 1136px;
   }
 }
