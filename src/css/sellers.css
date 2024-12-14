@@ -17,19 +17,22 @@
   color: var(--orange);
 }
 
+.sellers-list li:not(:first-child) {
+  display: none;
+}
 .sellers-item {
+  box-sizing: border-box;
   width: 100%;
   overflow: hidden;
-  border-bottom: 1px solid rgba(17, 17, 17, 0.1);
-  border-left: 1px solid rgba(17, 17, 17, 0.1);
-  border-right: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
   padding-bottom: 24px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .sellers-img {
   max-height: 464px;
 }
+
 .sellers-subtitle {
   text-align: center;
   margin-top: 24px;
@@ -44,6 +47,7 @@
 .sellers-item-overlay {
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
 
 .overlay {
@@ -52,6 +56,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 15px;
   backdrop-filter: blur(15px);
   background: linear-gradient(
     161deg,
@@ -61,6 +66,7 @@
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 187px 20px;
+  max-width: 295px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -72,9 +78,58 @@
   transform: translateY(0);
 }
 
-.sellers-item-second {
-  display: none;
+@media screen and (min-width: 768px) {
+  .sellers {
+    margin-bottom: 100px;
+  }
+
+  .sellers-title {
+    font-size: 24px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
+
+  .sellers-list li:not(:last-child) {
+    display: block;
+  }
+
+  .sellers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .sellers-item {
+    width: calc((100% - 16px) / 2);
+    box-sizing: border-box;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    padding-bottom: 28px;
+  }
+
+  .sellers-img {
+    width: 100%;
+  }
+
+  .overlay {
+    max-width: 280px;
+    padding: 178px 32px;
+  }
 }
-.sellers-item-third {
-  display: none;
+
+@media screen and (min-width: 1200px) {
+  .sellers {
+    margin-bottom: 120px;
+  }
+
+  .sellers-list li:not(:first-child) {
+    display: block;
+  }
+
+  .sellers-item {
+    width: calc((100% - 16px * 2) / 3);
+  }
+
+  .overlay {
+    padding: 178px 40px;
+  }
 }
